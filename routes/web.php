@@ -29,11 +29,13 @@ use App\Http\Controllers\UtamaController;
 
 Route::get("/utama/test", [UtamaController::class, "test"]);
 
+
 /* Controller baru 1 */
 use App\Http\Controllers\NewYnController;
 Route::get("/new/yn", [NewYnController::class, "yn"]);
 Route::get("/new/yandi", [NewYnController::class, "yandi"]);
 Route::get("/new/azhar", [NewYnController::class, "azhar"]);
+Route::get("/tema/bootstrap", [NewYnController::class, "index"]);
 
 /* Controller baru 2 */
 use App\Http\Controllers\YnController;

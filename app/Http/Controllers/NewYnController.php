@@ -18,4 +18,10 @@ class NewYnController extends Controller
 	{
 		return view("azhar");
 	}
+
+	public function index()
+ 	{
+ 		return view("test-tema"); // view dengan template
+ 	}
+
 }
